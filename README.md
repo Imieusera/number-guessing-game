@@ -13,10 +13,19 @@ Welcome to the Number Guessing Game! This is a simple command-line game where yo
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/Imieusera/number-guessing-game.git]
+   ```
 2. **Navigate to the Directory:**
   ```bash
   cd number-guessing-game
-
+  ```
+3. **Compile the C++ File:**
+  ```bash
+  g++ -o guessing-game guessing-game.cpp
+  ```
+4. **Run the Game:**
+  ```bash
+  ./guessing-game
+  ```
 
 ## How to Play
 --------------
