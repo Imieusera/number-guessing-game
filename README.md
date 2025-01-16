@@ -12,9 +12,9 @@ Welcome to the Number Guessing Game! This is a simple command-line game where yo
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/Imieusera/number-guessing-game.git]
+   git clone https://github.com/Imieusera/number-guessing-game.git
    ```
-2. **Navigate to the Directory:**
+3. **Navigate to the Directory:**
   ```bash
   cd number-guessing-game
   ```
