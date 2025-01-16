@@ -44,7 +44,7 @@ int main() {
                 std::cin >> guess;
                 if (guess == ans) {
                     std::cout << "Congratulations! You guessed the correct number in " << i+1 << " attempts.\n\n";
-                    break;
+                    return 0;
                 } else if (ans < guess) {
                     std::cout << "Incorrect! The number is less than " << guess << ".\n\n";
                 } else if (ans > guess) {
@@ -61,7 +61,7 @@ int main() {
                 std::cin >> guess;
                 if (guess == ans) {
                     std::cout << "Congratulations! You guessed the correct number in " << i+1 << " attempts.\n\n";
-                    break;
+                    return 0;
                 } else if (ans < guess) {
                     std::cout << "Incorrect! The number is less than " << guess << ".\n\n";
                 } else if (ans > guess) {
@@ -78,7 +78,7 @@ int main() {
                 std::cin >> guess;
                 if (guess == ans) {
                     std::cout << "Congratulations! You guessed the correct number in " << i+1 << " attempts.\n\n";
-                    break;
+                    return 0;
                 } else if (ans < guess) {
                     std::cout << "Incorrect! The number is less than " << guess << ".\n\n";
                 } else if (ans > guess) {
